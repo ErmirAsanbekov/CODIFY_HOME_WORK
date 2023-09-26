@@ -1,0 +1,53 @@
+@media screen and (max-width: 1529px) and (min-width: 1103px) {
+    .container {
+        background-color: black;
+        width: 80px;
+        height: 80px;
+        position: static;
+        border: 30px solid black;
+        
+    }
+}
+
+@media screen and (max-width: 1103px) and (min-width: 800px) {
+ .container {
+    background-color: black;
+    width: 80px;
+    height: 80px;
+    position: relative;
+    top: 600px; left: 300px;
+    border: 30px solid black;
+ }
+}
+
+@media screen and (max-width: 800px) and (min-width: 520px) {
+    .container {
+        background-color: black;
+        position: absolute;
+        top: 200px; left: 800px;
+width: 80px;
+height: 80px;
+    }
+}
+
+@media screen and (max-width: 520px) and (min-width: 300px) {
+.container {
+    background-color: black;
+width: 80px;
+height: 80px;
+    position: sticky;
+    left: 100px;
+    
+}
+}
+
+@media screen and (max-width: 300px) and (min-width: 0px) {
+.container {
+    background-color: black;
+    position: fixed;
+    bottom: 100px;
+    right: 80px;
+    width: 80px;
+    height: 80px;
+}
+}
